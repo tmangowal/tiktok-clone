@@ -3,7 +3,6 @@ import { Platform, StatusBar, StyleSheet, View } from "react-native";
 import { SplashScreen } from "expo";
 import * as Font from "expo-font";
 import { Ionicons } from "@expo/vector-icons";
-import useLinking from "./navigation/useLinking";
 import TiktokScreen from "./screens/TiktokScreen";
 
 export default function App(props) {

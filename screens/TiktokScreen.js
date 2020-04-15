@@ -115,6 +115,7 @@ export default function TiktokScreen() {
   return (
     <View style={styles.container}>
       <FlatList
+        showsVerticalScrollIndicator={false}
         style={{ flex: 1 }}
         data={data}
         keyExtractor={({ username }) => username}
